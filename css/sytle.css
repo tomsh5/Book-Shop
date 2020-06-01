@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+    z-index: 1;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  thead{
+    background-color: gray;
+  }
+
+  .details-modal{
+    text-align: center;
+    padding: 5px;
+    background-color: burlywood;
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    border: 2px black solid;
+    left: 1000px;
+    top: 200px;
+    z-index: 0;
+  }
